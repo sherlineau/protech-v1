@@ -35,6 +35,14 @@ img, picture, svg, video {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  .text-primary { color: var(--primary) }
+  .text-secondary { color: var(--secondary) }
+  .text-accent { color: var(--accent) }
+
+  .bg-primary { background-color: var(--primary) }
+  .bg-secondary { background-color: var(--secondary)}
+  .bg-accent { background-color: var(--accent)}
 }
 
 @media (prefers-color-scheme: light) {
@@ -56,6 +64,7 @@ img, picture, svg, video {
     --secondary: hsl(267, 91%, 13%);
     --accent: hsl(48, 98%, 44%);
   }
+
 }
 
 body {
