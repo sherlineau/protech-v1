@@ -37,8 +37,8 @@ const Footer = () => {
           </article>
           <article className="info">
             <p className="faded">contact info</p>
-            <p>225.296.5556</p>
-            <p>protechdentalarts@yahoo.com</p>
+            <a href="tel:225-296-5556">225.296.5556</a>
+            <a href="mailto:protechdentalarts@yahoo.com">protechdentalarts@yahoo.com</a>
           </article>
         </div>
       </footer>
