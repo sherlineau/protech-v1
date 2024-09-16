@@ -28,7 +28,7 @@ const Footer = () => {
           <article className="info">
             <p className="faded">address</p>
             <p>4444 Arnold Lane</p>
-            <p>Baton Rouge, LA</p>
+            <p>Baton Rouge, LA 70809</p>
           </article>
           <article className="info">
             <p className="faded">opening hours</p>
