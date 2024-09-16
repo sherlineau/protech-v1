@@ -1,16 +1,17 @@
 import "./App.css";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Services from "./components/Services";
+import Tech from "./components/Tech";
 
 function App() {
   return (
     <>
-      <div className="hero">
-        <h1>Pro-Tech Dental Arts</h1>
-      </div>
-      
-      <div className="technologies"></div>
-      <div className="services"></div>
-
+      <Navbar />
+      <Hero />
+      <Tech />
+      <Services />
       <Footer />
     </>
   );
