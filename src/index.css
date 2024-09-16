@@ -37,6 +37,7 @@ img, picture, svg, video {
 @media (prefers-color-scheme: light) {
   :root {
     --text: hsl(268, 18%, 21%);
+    --text-faded: hsla(268, 18%, 21%, 0.3);
     --background: hsl(0, 0%, 90%);
     --primary: hsl(266, 62%, 30%);
     --secondary: hsl(267, 91%, 87%);
@@ -46,6 +47,7 @@ img, picture, svg, video {
 @media (prefers-color-scheme: dark) {
   :root {
     --text: hsl(268, 18%, 79%);
+    --text-faded: hsla(268, 18%, 79%, 0.63);
     --background: hsl(0, 0%, 12%);
     --primary: hsl(266, 62%, 70%);
     --secondary: hsl(267, 91%, 13%);
