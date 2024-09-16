@@ -2,7 +2,10 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className="hero">
+      <img src="" alt="" />
+      <h2>Pro-Tech Dental Arts</h2>
+    </div>
   )
 }
 
