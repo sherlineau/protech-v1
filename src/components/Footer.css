@@ -30,10 +30,8 @@ input:focus , textarea:focus {
 }
 
 iframe {
-    width: 100%;
-    height: 19rem;
-    max-width: 400px;
-    max-height: 300px;
+    width: 400px;
+    height: 300px;
 }
 
 .info {
@@ -55,6 +53,11 @@ iframe {
 
     .right, .left {
         width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 19rem;
     }
   }
   
