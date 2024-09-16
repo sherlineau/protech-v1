@@ -42,6 +42,12 @@ iframe {
     margin: 0;
 }
 
+.info a {
+    display: block;
+    text-decoration: none;
+    color: var(--text);
+}
+
 .faded {
     color: var(--text-faded)
 }
