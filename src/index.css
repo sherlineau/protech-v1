@@ -99,3 +99,13 @@ h5 {
 small {
   font-size: 0.707rem; /* 11.36px */
 }
+
+.callout-btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  color: var(--secondary);
+  background-color: var(--primary);
+}
