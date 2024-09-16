@@ -13,7 +13,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --text: hsl(268, 18%, 21%);
-    --background: hsl(0, 0%, 88%);
+    --background: hsl(0, 0%, 90%);
     --primary: hsl(266, 62%, 30%);
     --secondary: hsl(267, 91%, 87%);
     --accent: hsl(48, 98%, 56%);
