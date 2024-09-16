@@ -59,6 +59,7 @@ img, picture, svg, video {
 body {
   margin: 0 auto;
   max-width: 1920px;
+  background-color: var(--background);
 }
 
 h1,
