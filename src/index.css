@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair%20Display:700|Inter:400");
 
+/* reset */
+*, *::before, *::after {
+  box-sizing: border-box 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /*  sets default dark mode */
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
