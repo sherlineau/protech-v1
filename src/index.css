@@ -60,8 +60,8 @@ img, picture, svg, video {
     --text: hsl(266, 19%, 86%);
     --text-faded: hsla(266, 19%, 86%, 0.60);
     --background: hsl(0, 0%, 12%);
-    --primary: hsl(266, 62%, 70%);
-    --secondary: hsl(267, 91%, 13%);
+    --primary: hsl(266, 50%, 30%);
+    --secondary: hsl(267, 80%, 87%);
     --accent: hsl(48, 98%, 44%);
   }
 
@@ -84,33 +84,19 @@ h5 {
   margin: 1rem 0;
 }
 
-html {
-  font-size: 100%;
-} /* 16px */
+html {font-size: 100%;} /* 16px */
 
-h1 {
-  font-size: 5.652rem; /* 90.4px */
-}
+h1 {font-size: 4.210rem; /* 67.36px */}
 
-h2 {
-  font-size: 3.997rem; /* 64px */
-}
+h2 {font-size: 3.158rem; /* 50.56px */}
 
-h3 {
-  font-size: 2.827rem; /* 45.28px */
-}
+h3 {font-size: 2.369rem; /* 37.92px */}
 
-h4 {
-  font-size: 1.999rem; /* 32px */
-}
+h4 {font-size: 1.777rem; /* 28.48px */}
 
-h5 {
-  font-size: 1.414rem; /* 22.56px */
-}
+h5 {font-size: 1.333rem; /* 21.28px */}
 
-small {
-  font-size: 0.707rem; /* 11.36px */
-}
+small {font-size: 0.750rem; /* 12px */}
 
 .callout-btn {
   display: block;
