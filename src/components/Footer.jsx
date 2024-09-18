@@ -5,7 +5,7 @@ const Footer = () => {
     <section className="footer">
       <footer className="container">
         <div className="left" id="contact">
-          <h4>Leave us a message</h4>
+          <h2>Leave us a message</h2>
           <form action="">
             <input type="text" name="name" id="name" placeholder="name"/>
             <input type="text" name="email" id="email" placeholder="email"/>
