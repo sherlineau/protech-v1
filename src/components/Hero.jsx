@@ -1,5 +1,5 @@
 import "./Hero.css";
-import Div100vh, {use100vh} from "react-div-100vh";
+import {use100vh} from "react-div-100vh";
 
 const Hero = () => {
   const height = use100vh()
