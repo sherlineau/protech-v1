@@ -1,10 +1,11 @@
 import "./Hero.css";
-import Div100vh from "react-div-100vh";
+import Div100vh, {use100vh} from "react-div-100vh";
 
 const Hero = () => {
+  const height = use100vh()
 
   return (
-    <Div100vh>
+    <div className="vh100" style={{"--height":`${height}px`}}>
       <section className="hero">
         <h1 className="hero-header text-accent bg-primary">
           Pro-Tech Dental Arts
@@ -17,7 +18,7 @@ const Hero = () => {
           <img src="placeholder.png" alt="" className="hero-img" />
         </div>
       </section>
-    </Div100vh>
+    </div>
   );
 };
 
