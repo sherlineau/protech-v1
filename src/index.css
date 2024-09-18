@@ -38,6 +38,7 @@ html {
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
+  line-height: 1.5;
   --font-scale: 1.250;
   --p: 1rem;
   --h5: calc(var(--p) * var(--font-scale));
