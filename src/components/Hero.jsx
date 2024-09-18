@@ -13,6 +13,7 @@ const Hero = () => {
           <div>
             <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
           </div>
+          {/* front of lab ?? */}
           <img src="placeholder.png" alt="" className="hero-img" />
         </div>
       </section>
