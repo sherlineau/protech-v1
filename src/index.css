@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair%20Display:700|Inter:400");
 
 /* reset */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: inherit;
   font-size: inherit;
@@ -21,7 +23,10 @@ body {
   min-height: 100vh;
 }
 
-img, picture, svg, video {
+img,
+picture,
+svg,
+video {
   display: block;
   max-width: 100%;
 }
@@ -48,13 +53,25 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  .text-primary { color: var(--primary) }
-  .text-secondary { color: var(--secondary) }
-  .text-accent { color: var(--accent) }
+  .text-primary {
+    color: var(--primary);
+  }
+  .text-secondary {
+    color: var(--secondary);
+  }
+  .text-accent {
+    color: var(--accent);
+  }
 
-  .bg-primary { background-color: var(--primary) }
-  .bg-secondary { background-color: var(--secondary)}
-  .bg-accent { background-color: var(--accent)}
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+  .bg-accent {
+    background-color: var(--accent);
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -70,13 +87,12 @@ html {
 @media (prefers-color-scheme: dark) {
   :root {
     --text: hsl(266, 19%, 86%);
-    --text-faded: hsla(266, 19%, 86%, 0.60);
+    --text-faded: hsla(266, 19%, 86%, 0.6);
     --background: hsl(0, 0%, 12%);
     --primary: hsl(266, 50%, 30%);
     --secondary: hsl(267, 80%, 87%);
     --accent: hsl(48, 98%, 44%);
   }
-
 }
 
 body {
