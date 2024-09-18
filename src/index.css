@@ -38,7 +38,7 @@ html {
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
---font-scale: 1.250;
+  --font-scale: 1.250;
   --p: 1rem;
   --h5: calc(var(--p) * var(--font-scale));
   --h4: calc(var(--h5) * var(--font-scale));
@@ -97,9 +97,7 @@ html {
 
 body {
   margin: 0 auto;
-  max-width: 1920px;
   background-color: var(--background);
-  
 }
 
 h1,
@@ -134,6 +132,12 @@ h5 {
 
 small {
   font-size: var(--small);
+}
+
+.container {
+  max-width: 1920px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .callout-btn {
