@@ -20,6 +20,15 @@
   color: var(--secondary);
 }
 
-.navbar li:hover {
+.navbar li:hover, .navbar a:hover {
   color: var(--accent);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--secondary)
+}
+
+.navbar:visited {
+  color: var(--secondary)
 }
