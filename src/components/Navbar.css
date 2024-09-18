@@ -33,3 +33,9 @@
 .navbar:visited {
   color: var(--secondary)
 }
+
+@media screen and (max-width: 1200px) {
+  .navbar ul{
+    display: none;
+  }
+}
