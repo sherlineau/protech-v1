@@ -1,0 +1,25 @@
+.navbar {
+  margin: 0;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: end;
+}
+
+.navbar li {
+  margin-right: 1rem;
+  list-style-type: none;
+  color: var(--secondary);
+}
+
+.navbar li:hover {
+  color: var(--accent);
+}

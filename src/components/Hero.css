@@ -6,12 +6,6 @@
   height: 100%;
 }
 
-.hero-header {
-  margin: 0;
-  padding: 1rem;
-  text-align: center;
-}
-
 .hero-content {
   margin: auto;
   display: grid;
