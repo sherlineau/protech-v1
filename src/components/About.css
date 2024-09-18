@@ -10,7 +10,7 @@
 
 .about-text {
     padding: 2rem;
-
+    width: 60%;
 }
 
 .about-text p {
@@ -20,5 +20,14 @@
 @media screen and (max-width: 1200px) {
     #about {
         display: block;
+    }
+
+    #about img {
+        max-width: 100%;
+    }
+
+    .about-text {
+        padding: 0;
+        width: 100%;
     }
 }
