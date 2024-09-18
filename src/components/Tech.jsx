@@ -2,7 +2,7 @@ import "./Tech.css";
 
 const Tech = () => {
   return (
-    <div>Tech</div>
+    <div id="tech">Tech</div>
   )
 }
 

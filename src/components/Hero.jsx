@@ -6,11 +6,7 @@ const Hero = () => {
 
   return (
     <div className="vh100" style={{"--height":`${height}px`}}>
-      <section className="hero">
-        <h1 className="hero-header text-accent bg-primary">
-          Pro-Tech Dental Arts
-        </h1>
-
+      <section className="hero" id="hero">
         <div className="hero-content" >
           <div>
             <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>

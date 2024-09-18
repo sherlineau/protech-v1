@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <footer className="container">
-        <div className="left">
+        <div className="left" id="contact">
           <h4>Leave us a message</h4>
           <form action="">
             <input type="text" name="name" id="name" placeholder="name"/>
