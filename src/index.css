@@ -141,14 +141,35 @@ small {
   margin: 0 auto;
 }
 
-.callout-btn {
+button {
   display: block;
   margin: 0 auto;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: .5rem;
   padding: 1rem;
+}
+
+.callout-btn {
   color: var(--secondary);
   background-color: var(--primary);
+}
+
+.callout-btn:hover {
+  color: var(--primary);
+  background-color: var(--secondary);
+  transition: .2s ease-in;
+}
+
+.secondary-btn {
+  color: var(--secondary);
+  background-color: transparent;
+  border: 1px solid var(--secondary);
+}
+
+.secondary-btn:hover {
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  transition: .2s ease-in;
 }
 
 @media screen and (max-width: 1200px) {
