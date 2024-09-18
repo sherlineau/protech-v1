@@ -1,0 +1,24 @@
+#about {
+ display: flex;
+}
+
+#about img {
+    width: 400px;
+    height: 100%;
+    background-color: green;
+}
+
+.about-text {
+    padding: 2rem;
+
+}
+
+.about-text p {
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    #about {
+        display: block;
+    }
+}
