@@ -3,9 +3,9 @@
 }
 
 #about img {
-    width: 400px;
-    height: 100%;
-    background-color: green;
+    margin: 3rem 0;
+    max-width: 40%;
+    object-fit: cover;
 }
 
 .about-text {
