@@ -34,7 +34,11 @@
   color: var(--secondary)
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
+  .navbar h1 {
+    margin: auto;
+  }
+  
   .navbar ul{
     display: none;
   }

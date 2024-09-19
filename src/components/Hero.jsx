@@ -7,11 +7,11 @@ const Hero = () => {
 
   return (
     <div className="vh100" style={{"--height":`${height}px`}}>
-      <section className="hero" id="hero">
       <Navbar />
+      <section className="hero" id="hero">
         <div className="hero-content" >
           <div>
-            <h1>Your Partner in Dental Innovation and Quality Craftsmanship.</h1>
+            <h2>Your Partner in Dental Innovation and Quality Craftsmanship.</h2>
           </div>
           {/* front of lab ?? */}
           <img src="placeholder.png" alt="" className="hero-img" />

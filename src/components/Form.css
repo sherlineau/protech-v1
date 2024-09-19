@@ -1,0 +1,17 @@
+input, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: .125rem solid var(--text-faded);
+    background-color: transparent;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
+input:focus , textarea:focus {
+    outline: none;
+}
+
+label {
+    padding: .5rem;
+    color: var(--text-faded);
+}
