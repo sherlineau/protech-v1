@@ -1,7 +1,6 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
-import Tech from "./components/Tech";
 import Footer from "./components/Footer";
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <>
       <Hero />
       <About />
-      <Tech />
       <Services />
       <Footer />
     </>
