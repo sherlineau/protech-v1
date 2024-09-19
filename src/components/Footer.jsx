@@ -2,8 +2,7 @@ import "./Footer.css";
 //! TODO - hookup form to send email to protechdental arts on submission 
 const Footer = () => {
   return (
-    <section className="footer">
-      <footer className="container">
+      <footer className="footer container">
         <div className="left" id="contact">
           <h2>Leave us a message</h2>
           <form action="">
@@ -42,7 +41,6 @@ const Footer = () => {
           </article>
         </div>
       </footer>
-    </section>
   );
 };
 
