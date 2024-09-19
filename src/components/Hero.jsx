@@ -11,7 +11,7 @@ const Hero = () => {
       <Navbar />
         <div className="hero-content" >
           <div>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            <h1>Your Partner in Dental Innovation and Quality Craftsmanship.</h1>
           </div>
           {/* front of lab ?? */}
           <img src="placeholder.png" alt="" className="hero-img" />
