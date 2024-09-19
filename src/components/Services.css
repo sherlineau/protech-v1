@@ -1,0 +1,21 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+
+.services h1 {
+  grid-column: span 4;
+  text-align: center;
+}
+
+.services p {
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  .services {
+    display: block;
+  }
+}
