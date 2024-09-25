@@ -25,7 +25,6 @@ const index = () => {
           console.log(err.text);
         }
       );
-
   };
 
   return (
@@ -35,39 +34,31 @@ const index = () => {
           <h2>Message Sent</h2>
           <p>
             Thanks for sending a message, we`ll get back to you as soon as we
-            can! If this is urgent, please give us a call at <a href="tel:225-296-5556">225.296.5556</a>
+            can! If this is urgent, please give us a call at{" "}
+            <a href="tel:225-296-5556">225.296.5556</a>
           </p>
         </div>
       ) : (
         <div>
           <h2>Leave us a message</h2>
-          <form ref={form} >
-            <input type="text" name="user_name" id="name"  required />
+          <form ref={form} onSubmit={sendEmail}>
+            <input type="text" name="user_name" id="name" required />
             <label htmlFor="user_name">Name</label>
-            <input
-              type="text"
-              name="user_email"
-              id="email"
-              required
-            />
+            <input type="email" name="user_email" id="email" required />
             <label htmlFor="user_email">Email</label>
-            <input
-              type="text"
-              name="subject"
-              id="subject"
-              required
-            />
+            <input type="text" name="subject" id="subject" required />
             <label htmlFor="subject">Subject</label>
             <textarea
               name="message"
               id="message"
               cols="30"
               rows="3"
-              placeholder="Type your message here..." required
+              placeholder="Type your message here..."
+              required
             />
-            <button
-              type="submit"
-              className="callout-btn" onClick={sendEmail}>Tell Us About it</button>
+            <button type="submit" className="callout-btn">
+              Tell Us About it
+            </button>
           </form>
         </div>
       )}

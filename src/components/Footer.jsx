@@ -4,7 +4,7 @@ import Form from './Form'
 const Footer = () => {
   return (
       <footer className="footer container">
-        {/* <Form /> */}
+        <Form />
         <div className="left">
           <h2>Pro-Tech Dental Arts</h2>
           <article className="info">
